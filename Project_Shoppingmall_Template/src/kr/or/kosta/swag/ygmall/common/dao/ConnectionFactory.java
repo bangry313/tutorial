@@ -1,9 +1,7 @@
 package kr.or.kosta.swag.ygmall.common.dao;
 
 import java.sql.Connection;
-
 import org.apache.commons.dbcp2.BasicDataSource;
-
 /**
  * JDBC Connection 생성 팩토리
  * Singleton 패턴 적용
