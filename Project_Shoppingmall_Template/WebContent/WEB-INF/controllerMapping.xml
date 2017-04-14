@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<controllers>
+	
+	<!-- 메인페이지 -->
+	<controller name="/index" class="kr.or.kosta.swag.ygmall.main.controller.IndexController" />
+	
+	<!-- 회원관리 -->
+	<controller name="/users/idDupCheck" class="kr.or.kosta.swag.ygmall.user.controller.IdDupCheckController" />
+	<controller name="/users/regist" class="kr.or.kosta.swag.ygmall.user.controller.UserRegistController" />
+	<controller name="/users/confirm" class="kr.or.kosta.swag.ygmall.user.controller.UserConfirmController" />
+	<controller name="/users/list" class="kr.or.kosta.swag.ygmall.user.controller.UserListController" />
+	
+</controllers>
